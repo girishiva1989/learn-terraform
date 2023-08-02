@@ -6,3 +6,4 @@ resource "aws_instance" "frontend" {
     Name = "frontend"
   }
 }
+#frontend is the name of the resource
