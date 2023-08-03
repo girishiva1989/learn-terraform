@@ -10,6 +10,6 @@ output "sample_string" {
 
 #If printhing variable with additional string
 
-output "sample_string" {
+output "sample_string1" {
   value = "value of sample string = ${var.sample_string}"
 }
