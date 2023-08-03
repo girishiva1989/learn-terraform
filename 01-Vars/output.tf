@@ -1,12 +1,12 @@
 #Print variable
 #In Terraform, how we give variable name while declaring it, in the similar manner we give name while printing
 
-output "sample1" {
+output "sample_string" {
   value = var.sample_string
 }
 
 #If printhing variable with additional string
 
-output "sample2" {
+output "sample_string1" {
   value = "value of sample string = ${var.sample_string}"
 }
