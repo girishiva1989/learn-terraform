@@ -14,3 +14,11 @@ output "sample_string1" {
 output "sample_list" {
   value = var.sample_list[1]
 }
+
+output "sample_dict1" {
+  value = var.sample_dictionary["number1"]
+}
+
+output "sample_dict2" {
+  value = var.sample_dictionary["boolean"]
+}

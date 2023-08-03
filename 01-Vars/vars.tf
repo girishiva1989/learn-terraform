@@ -25,3 +25,14 @@ variable "sample_list" {
   ]
 }
 #Data type inside the list does not matters
+
+# We have dictionary(Map), meaning single variable will have multiple values, and eah value is going to have seperate name
+variable "sample_dictionary" {
+  default = {
+    number1 = 100,
+    string = "hello",
+    boolean = true,
+    number2 = 10.5
+  }
+}
+# This is the most preferred over List
