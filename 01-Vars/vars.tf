@@ -20,7 +20,7 @@ variable "sample_list" {
   default = [
     100,
     "hello",
-    true
+    true,
     10.5
   ]
 }
