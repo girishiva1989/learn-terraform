@@ -35,4 +35,9 @@ variable "sample_dictionary" {
     number2 = 10.5
   }
 }
-# This is the most preferred over List
+# This is the most preferred variable over List when we declare the data
+# When we want to run same code in diff environment, we can use this var
+
+variable "env"{}
+
+variable "auto_num1"{}
