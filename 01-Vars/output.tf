@@ -30,3 +30,7 @@ output "auto_num1" {
 output "sample1" {
   value = var.sample1
 }
+
+output "var1" {
+  value = var.env
+}
