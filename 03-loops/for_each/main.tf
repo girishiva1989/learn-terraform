@@ -11,8 +11,7 @@ resource "null_resource" "fruits_nane" {
   for_each = var.fruits_map
 
   provisioner "local-exec" {
-    //command = "echo Fruit Name - ${each.key} - ${each.value}"
-    command = "echo Fruit Name - ${each.key["oranges"]}"
+    command = "echo Fruit Name - ${each.key} - ${each.value}"
     //command = "echo  ${length(var.fruits)}"
   }
 
