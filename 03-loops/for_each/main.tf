@@ -12,7 +12,7 @@ resource "null_resource" "fruits_nane" {
 
   provisioner "local-exec" {
     //command = "echo Fruit Name - ${each.key} - ${each.value}"
-    command = "echo Fruit Name - ${each.value["oranges"]}"
+    command = "echo Fruit Name - ${each.key["oranges"]}"
     //command = "echo  ${length(var.fruits)}"
   }
 
