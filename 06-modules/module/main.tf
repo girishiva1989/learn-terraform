@@ -1,4 +1,4 @@
-resource null_resource "null" {
+resource null_resource "nothing" {
   provisioner "local-exec" {
     command = "echo hello from module1"
   }
