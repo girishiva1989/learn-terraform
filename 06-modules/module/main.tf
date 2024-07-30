@@ -1,11 +1,9 @@
 resource null_resource "nothing" {
   provisioner "local-exec" {
-    command = "echo hello from module1"
+    command = "echo hello from module ${input}"
   }
 }
 
-resource null_resource "null" {
-  provisioner "local-exec" {
-    command = "echo hello from module2"
-  }
+variable "module" {
+
 }
